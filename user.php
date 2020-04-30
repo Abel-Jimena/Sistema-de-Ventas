@@ -11,16 +11,15 @@
 
    for ($x=0; $x<$tam;$x++)
    {
-   if ($user[$x]==$nombre && $pass[$x]==$password)
-   {
-       $estado=true;
+       if ($user[$x]==$nombre && $pass[$x]==$password)
+       {
+           $estado=true;
+       }
    }
-   
-   }
-   if ($estado)
+
+   if ($estado=false)
    { 
-         header("location:index.html");
-       
+         header("location:index.html");  
    }
    else 
    {
