@@ -18,12 +18,13 @@
    
    }
    if ($estado)
-   {
-       header("location:ventas.html");
+   { 
+         header("location:index.html");
+       
    }
    else 
    {
-       header("location:index.html");
+      header("location:ventas.html");
    }
 
 
